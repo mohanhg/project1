@@ -11,4 +11,4 @@ RUN unzip mediplus-lite.zip
 RUN cp -rvf mediplus-lite/* .
 RUN rm -rf mediplus-lite mediplus-lite.zip
 CMD ["/usr/sbin/apache2","-D","FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 22
